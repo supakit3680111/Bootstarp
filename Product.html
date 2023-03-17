@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+     <!-- navbar toggler -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <!-- Content -->
+        <div class="container-fluid">
+            <!-- Brand -->
+            <a href="index.html" class="navbar-brand">Supakit</a>
+            <!-- menu -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">   
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="About.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contect.html" class="nav-link">contect</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Product.html" class="nav-link">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="wiget.html" class="nav-link">Wiget</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="popover.html" class="nav-link">Popover</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">สินค้า</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item">เฟอร์นิเจอร์</a></li>
+                            <li><a href="" class="dropdown-item">ตู้เสื้อผ้า</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <for class="d-flex">
+                    <input type="text" class="ms-2 form-control me-3" placeholder="ค้นหาข้อมูล">
+                    <input type="submit" value="ค้นหา" class="btn btn-outline-light ">
+                </form>
+            </div>    
+        </div>
+    </nav>
+    <br>
+   
+    <div class="container">
+        <div class="row">
+            <!-- การส้าง Carousel -->
+            <div class="col-lg-8 m-auto">
+                <div id="slider1" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <button class="active" data-bs-target="#slider1" data-bs-slide-to="0"></button>
+                        <button data-bs-target="#slider1" data-bs-slide-to="1"></button>
+                        <button data-bs-target="#slider1" data-bs-slide-to="2"></button>
+                        <button data-bs-target="#slider1" data-bs-slide-to="3"></button>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://cdn.pixabay.com/photo/2022/10/08/06/31/hungarian-parliament-building-7506436_960_720.jpg" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>หญ้า</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cdn.pixabay.com/photo/2013/04/11/19/46/building-102840_960_720.jpg" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>น้ำตก</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cdn.pixabay.com/photo/2014/07/21/18/31/kuala-lumpur-398792_960_720.jpg" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>ฤดูหนาว</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cdn.pixabay.com/photo/2016/11/30/15/00/lighthouse-1872998_960_720.jpg" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>ฤดูหนาว</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- การควบคุม Slide ผ่านปุ่ม -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#slider1" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#slider1" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+
+</head>
+<body>
+        <!-- navbar toggler -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <!-- Content -->
+            <div class="container-fluid">
+                <!-- Brand -->
+                <a href="index.html" class="navbar-brand">Supakit</a>
+                <!-- menu -->
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">   
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="About.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contect.html" class="nav-link">contect</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Product.html" class="nav-link">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="wiget.html" class="nav-link">Wiget</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="popover.html" class="nav-link">Popover</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">สินค้า</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="" class="dropdown-item">เฟอร์นิเจอร์</a></li>
+                                <li><a href="" class="dropdown-item">ตู้เสื้อผ้า</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <for class="d-flex">
+                        <input type="text" class="ms-2 form-control me-3" placeholder="ค้นหาข้อมูล">
+                        <input type="submit" value="ค้นหา" class="btn btn-outline-light ">
+                    </form>
+                </div>    
+            </div>
+        </nav>
+
+        <div class="container my-4">
+            <!-- JavaScript Widget -->
+            <!-- Moldal -->
+            <button class="btn btn-primary" data-bs-target="#showForm" data-bs-toggle="modal">ลงทะเบียน</button>
+
+            <div class="modal fade" id="showForm">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">แบบฟอร์มลงทะเบียน</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                        <div class="modal-body">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="">ชื่อ</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">นามสกุล</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">เบอร์โทรศัพท์</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-danger">ยกเลิก</button>
+                            <button class="btn btn-success">บันทึกข้อมูล</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+</body>
+</html>
